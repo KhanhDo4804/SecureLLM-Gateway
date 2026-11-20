@@ -1,0 +1,169 @@
+{
+  "run_id": "bank_4000_medium_s4242",
+  "schema_version": "appendix-c-v1",
+  "generator_version": "1.0",
+  "config_id": "4d6b03306d9b",
+  "T": "2026-10-31",
+  "timezone": "Asia/Ho_Chi_Minh",
+  "seed": 4242,
+  "policy_version": "bank-demo-v1",
+  "config": {
+    "customers": 4000,
+    "seed": 4242,
+    "as_of": "2026-10-31",
+    "density": "medium",
+    "counts": {
+      "areas": 200,
+      "branches": 40,
+      "rms": 120,
+      "companies": 300,
+      "merchants": 500,
+      "devices": 6000
+    },
+    "catalog_version": "demo-v1",
+    "policy_version": "bank-demo-v1"
+  },
+  "code_sha256": {
+    "__init__.py": "10a43a599d014449d480217dc4b16c0b497e29c0b0282f831b8e295d1da00759",
+    "__main__.py": "4d562c256559893f604d66768b62bb0f63f159a42bc72dca83c0d2656785affe",
+    "bank.py": "f8c3425b720f3904df5c8b0def522f44254565153a637bb7ec50c5374ec69119",
+    "checks.py": "0bc68ba8a77eae6c8801f2ee8a81e7f09a43d67f46d64098cd5cbc453ad314e4",
+    "diagnostics.py": "3eeb8ca23a5c7360a9507dcbd69f8a7dbb8edf99c8414341af69bfaeae978485",
+    "features.py": "243bfd4cde52a04571c87cae40b595ea3267e7c329b25e5bab0484a9463be66e",
+    "pilot.py": "ae24e30cc7c62c3667c3b5b855affb255776e897af000746d1bd0b0dbfd6c2d1",
+    "profile.py": "93b0b7d33841c5e9162463c427c629e399373e07573f33f5975e3c834379f8d8",
+    "schema.py": "4a994ffd0a7b8c407fcd04d6a8f27e7177d1151858eaf0a7fa871efd162eb62e",
+    "test_validation.py": "26ddf199cc8b4a32146edb2c8d63277d4b1f1f55e9c99a81e7a5b3a600301bec",
+    "validation.py": "2cd553cb2b06a5b5be0d23205abcf6080c6b5039bea0c9b8e8e15481a79d5b67"
+  },
+  "files": {
+    "source/areas.parquet": {
+      "rows": 200,
+      "sha256": "54f613bda4dce83892fef26dabcfa77f50634fb971ccbdc8175998df98f98400"
+    },
+    "source/branches.parquet": {
+      "rows": 40,
+      "sha256": "54e266ee48810d2679254cf761e05530dca63c9304e7b941225998291f66052b"
+    },
+    "source/staff.parquet": {
+      "rows": 200,
+      "sha256": "dddc63875a9e758d6082fa98330c6ffa4499f58f9d53b5dff5431a2321427c2c"
+    },
+    "source/companies.parquet": {
+      "rows": 300,
+      "sha256": "56ce01b1bba25fe941edc3d04495076cb901cb9363d2c7aebfdcc15e162ae6b4"
+    },
+    "source/merchants.parquet": {
+      "rows": 500,
+      "sha256": "e58eb5040512c734b26b7c1e9c000cd1ad5a9dbd7597ebaf29bff3bfb0ee653a"
+    },
+    "source/devices.parquet": {
+      "rows": 6000,
+      "sha256": "ae7bd5b16f126e634bed401bcd0ca76a000477698b4702bb770df3b4b4edae93"
+    },
+    "source/customers.parquet": {
+      "rows": 4000,
+      "sha256": "630bdaa7400aa82166c734f8343d31381c5765696e320b24b5c1e08ff4c41d92"
+    },
+    "source/customer_pii.parquet": {
+      "rows": 4000,
+      "sha256": "42085e6b40767159c3252caa93637c35bceaa18ad333b066408475770cecc027"
+    },
+    "source/rm_assignments.parquet": {
+      "rows": 4694,
+      "sha256": "09178611b5ffb951fa159e4f1c4f2fcf6f8e67bcccfffad6e666176d4cb998d1"
+    },
+    "source/employment.parquet": {
+      "rows": 2748,
+      "sha256": "c7d0a05c9af0f1dcaf02a738937c4cb58f3355bef420b622185d85a3f50ebd1f"
+    },
+    "source/accounts.parquet": {
+      "rows": 4881,
+      "sha256": "5beec76a6061322dae9289e494ce0475f68f7013ebd504f33da7819272e54480"
+    },
+    "source/cards.parquet": {
+      "rows": 4313,
+      "sha256": "31ccb1f5b93e64fc4544bcf117a0d0683878a0b99eff72d9ba8f7fd37cd67e24"
+    },
+    "source/transactions.parquet": {
+      "rows": 128424,
+      "sha256": "af60cc91b9a5ba8b7de71a63ae7c308846b53be71334653a1ca38b36b4aa978f"
+    },
+    "source/customer_financials.parquet": {
+      "rows": 4000,
+      "sha256": "0b6e26adca0567ea746aa90317d27cc4d2ec9ef2b686952cd65b54bb9fefe9a2"
+    },
+    "source/loans.parquet": {
+      "rows": 2662,
+      "sha256": "4994d5289d77ba0dcbba68e599dad6d4f87af13d2289d7d148fbf196d8bfec23"
+    },
+    "source/installments.parquet": {
+      "rows": 36165,
+      "sha256": "4efb0a5b3b1a1f347285be263f44f988063915677a7e8dc6dba3310a6f972f9f"
+    },
+    "source/payment_allocations.parquet": {
+      "rows": 20346,
+      "sha256": "f78885156435e73ebedcc3b87cfb8d2365af75d882f194fffdf04f746b4b64db"
+    },
+    "source/loan_snapshot.parquet": {
+      "rows": 2662,
+      "sha256": "19fd78fb2779a4f5f5533ed040eac9a324de9acb8c3978b9072a7a1ba39ea3a2"
+    },
+    "features/object_nodes.parquet": {
+      "rows": 5163,
+      "sha256": "a499fd7f794a40e90ccca0a7d972c740d0741ecb173cdc23360c6aab874f2c7c"
+    },
+    "features/facts.parquet": {
+      "rows": 72908,
+      "sha256": "6d3d41c0cf08b86c94be5ac5e64e87a010cc022139f5bd0f841808e90ae12a16"
+    },
+    "evaluation/fact_sources.parquet": {
+      "rows": 237871,
+      "sha256": "e654bab07361ba2c9193102c1e6eba737e67f1deae2936361f5b60bd08d9875a"
+    },
+    "evaluation/facts_gold.parquet": {
+      "rows": 72908,
+      "sha256": "040e67ee658bb5a1264a4cae96c339a40f59e373b34588f91e9cf673eee50af0"
+    },
+    "evaluation/split_customers.parquet": {
+      "rows": 4000,
+      "sha256": "4734a5d226fb9d785ab5ee0f3c2ae23354c1e9da69203fc350ec68fc07d1dfa5"
+    },
+    "evaluation/split_families.parquet": {
+      "rows": 12,
+      "sha256": "bbf404c9339687f9750c445ed87d917f301b29d5b586e89f478e5a57d96f75f6"
+    },
+    "features/texts.parquet": {
+      "rows": 72908,
+      "sha256": "b89249f3393d205a17e868dbc4ddcafc5d380b053754b5ccc7be2bf2425f9344"
+    },
+    "features/fact_texts.parquet": {
+      "rows": 72908,
+      "sha256": "9d437054d09ced50c43bd0259286b8397fece084f7cd82153f95672273cbc0e3"
+    },
+    "evaluation/pii_spans_gold.parquet": {
+      "rows": 36692,
+      "sha256": "fa5b1c6839fa8a14b9cbd8adc5dcbeb8c5e53897fb010e9fcca0570e7ba7d343"
+    },
+    "features/facts_input.parquet": {
+      "rows": 72908,
+      "sha256": "ed512cd9be95dd1cfb30dc8998787155c14041111623a7148438b1ddc2bc6ad6"
+    },
+    "features/facts_test.parquet": {
+      "rows": 10986,
+      "sha256": "afb6bd8fdab9931081bfd39c4ffda956ddaf24b604a7a009031dd60b52fd3ec4"
+    },
+    "source/cases.parquet": {
+      "rows": 4000,
+      "sha256": "2e37b7f726b1456ab4dcc6062bae38130f3dca894a93835c86a98b8cfa8e1db1"
+    },
+    "features/rag_chunks.parquet": {
+      "rows": 105600,
+      "sha256": "65b029ebb1e04fb1dc5494b6496d628c203f0d4c8319b1407e3c24a1e50b3e9d"
+    },
+    "evaluation/fact_predictions.parquet": {
+      "rows": 0,
+      "sha256": "59c88892b27b6334905c32d62d79960cc1cfcab8773c9b2e8fe0d20527a1cadb"
+    }
+  }
+}

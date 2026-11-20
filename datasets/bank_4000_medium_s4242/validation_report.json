@@ -1,0 +1,443 @@
+{
+  "status": "PASS",
+  "error_count": 0,
+  "errors_by_check": {},
+  "examples": [],
+  "statistics": {
+    "customers": 4000,
+    "subjects_with_sensitive_fact": 3997,
+    "source_transactions": 128424,
+    "distinct_facts": 72908,
+    "d_v_ordinary_facts": {
+      "n": 4000,
+      "min": 3,
+      "max": 26,
+      "mean": 13.934,
+      "p10": 9,
+      "p50": 14,
+      "p90": 19,
+      "p99": 22
+    },
+    "g_v_ordinary_neighbors": {
+      "n": 4000,
+      "min": 3,
+      "max": 25,
+      "mean": 13.345,
+      "p10": 8,
+      "p50": 14,
+      "p90": 18,
+      "p99": 21
+    },
+    "customers_outside_15_to_40": 2139,
+    "fraction_outside_15_to_40": 0.53475,
+    "employment_salary_same_customer_company_pairs": 2353,
+    "customers_by_split": {
+      "validation": 600,
+      "train": 2800,
+      "test": 600
+    },
+    "template_families_by_split": {
+      "validation": 2,
+      "train": 8,
+      "test": 2
+    },
+    "fact_labels_by_split": {
+      "train": {
+        "ordinary": 39036,
+        "sensitive": 12062
+      },
+      "test": {
+        "ordinary": 8430,
+        "sensitive": 2556
+      },
+      "validation": {
+        "ordinary": 8268,
+        "sensitive": 2556
+      }
+    },
+    "anchor_degrees_before_masking": {
+      "area": {
+        "n": 200,
+        "min": 10,
+        "max": 33,
+        "mean": 20.0,
+        "p10": 15,
+        "p50": 20,
+        "p90": 25,
+        "p99": 32,
+        "degree_one_fraction": 0.0
+      },
+      "branch": {
+        "n": 40,
+        "min": 75,
+        "max": 137,
+        "mean": 100.0,
+        "p10": 82,
+        "p50": 100,
+        "p90": 115,
+        "p99": 137,
+        "degree_one_fraction": 0.0
+      },
+      "company": {
+        "n": 300,
+        "min": 2,
+        "max": 23,
+        "mean": 9.16,
+        "p10": 5,
+        "p50": 9,
+        "p90": 14,
+        "p99": 18,
+        "degree_one_fraction": 0.0
+      },
+      "debt_group": {
+        "n": 5,
+        "min": 19,
+        "max": 1494,
+        "mean": 355.2,
+        "p10": 19,
+        "p50": 89,
+        "p90": 1494,
+        "p99": 1494,
+        "degree_one_fraction": 0.0
+      },
+      "device": {
+        "n": 4172,
+        "min": 1,
+        "max": 3,
+        "mean": 1.22,
+        "p10": 1,
+        "p50": 1,
+        "p90": 2,
+        "p99": 3,
+        "degree_one_fraction": 0.7926653883029722
+      },
+      "income_band": {
+        "n": 4,
+        "min": 22,
+        "max": 2470,
+        "mean": 902.75,
+        "p10": 22,
+        "p50": 382,
+        "p90": 2470,
+        "p99": 2470,
+        "degree_one_fraction": 0.0
+      },
+      "loan_status": {
+        "n": 2,
+        "min": 382,
+        "max": 1776,
+        "mean": 1079.0,
+        "p10": 382,
+        "p50": 382,
+        "p90": 1776,
+        "p99": 1776,
+        "degree_one_fraction": 0.0
+      },
+      "merchant": {
+        "n": 314,
+        "min": 46,
+        "max": 757,
+        "mean": 105.605,
+        "p10": 63,
+        "p50": 85,
+        "p90": 171,
+        "p99": 390,
+        "degree_one_fraction": 0.0
+      },
+      "merchant_group": {
+        "n": 2,
+        "min": 3044,
+        "max": 3641,
+        "mean": 3342.5,
+        "p10": 3044,
+        "p50": 3044,
+        "p90": 3641,
+        "p99": 3641,
+        "degree_one_fraction": 0.0
+      },
+      "score_band": {
+        "n": 4,
+        "min": 299,
+        "max": 1286,
+        "mean": 831.5,
+        "p10": 299,
+        "p50": 553,
+        "p90": 1286,
+        "p99": 1286,
+        "degree_one_fraction": 0.0
+      },
+      "staff": {
+        "n": 120,
+        "min": 19,
+        "max": 57,
+        "mean": 33.333,
+        "p10": 26,
+        "p50": 33,
+        "p90": 41,
+        "p99": 51,
+        "degree_one_fraction": 0.0
+      }
+    },
+    "business_diagnostics": {
+      "financial_profiles": {
+        "monthly_income_vnd_by_occupation": {
+          "OFFICE": {
+            "customers": 1488,
+            "missing": 156,
+            "n": 1332,
+            "min": 5659000,
+            "max": 57818000,
+            "mean": 20181148.649,
+            "p10": 11732000,
+            "p50": 18812000,
+            "p90": 30533000,
+            "p99": 44055000
+          },
+          "RETIRED": {
+            "customers": 55,
+            "missing": 2,
+            "n": 53,
+            "min": 3513000,
+            "max": 20261000,
+            "mean": 10708867.925,
+            "p10": 7206000,
+            "p50": 10400000,
+            "p90": 15076000,
+            "p99": 20261000
+          },
+          "SELF_EMPLOYED": {
+            "customers": 794,
+            "missing": 62,
+            "n": 732,
+            "min": 5281000,
+            "max": 53911000,
+            "mean": 17523937.158,
+            "p10": 10413000,
+            "p50": 16159000,
+            "p90": 26745000,
+            "p99": 38685000
+          },
+          "SERVICE": {
+            "customers": 682,
+            "missing": 60,
+            "n": 622,
+            "min": 3752000,
+            "max": 51083000,
+            "mean": 13851773.312,
+            "p10": 7683000,
+            "p50": 12771000,
+            "p90": 20957000,
+            "p99": 30998000
+          },
+          "TECHNICIAN": {
+            "customers": 783,
+            "missing": 82,
+            "n": 701,
+            "min": 8237000,
+            "max": 71489000,
+            "mean": 26148867.332,
+            "p10": 15113000,
+            "p50": 24578000,
+            "p90": 38939000,
+            "p99": 56207000
+          },
+          "UNDECLARED": {
+            "customers": 198,
+            "missing": 27,
+            "n": 171,
+            "min": 3405000,
+            "max": 37490000,
+            "mean": 11461304.094,
+            "p10": 6445000,
+            "p50": 10697000,
+            "p90": 16960000,
+            "p99": 31850000
+          }
+        },
+        "credit_score_by_worst_active_debt_group": {
+          "G1": {
+            "active_borrowers": 1494,
+            "missing_score": 247,
+            "n": 1247,
+            "min": 476,
+            "max": 850,
+            "mean": 675.807,
+            "p10": 587,
+            "p50": 674,
+            "p90": 767,
+            "p99": 838
+          },
+          "G2": {
+            "active_borrowers": 74,
+            "missing_score": 12,
+            "n": 62,
+            "min": 521,
+            "max": 778,
+            "mean": 652.452,
+            "p10": 595,
+            "p50": 650,
+            "p90": 721,
+            "p99": 778
+          },
+          "G3": {
+            "active_borrowers": 89,
+            "missing_score": 12,
+            "n": 77,
+            "min": 512,
+            "max": 822,
+            "mean": 644.377,
+            "p10": 566,
+            "p50": 638,
+            "p90": 706,
+            "p99": 822
+          },
+          "G4": {
+            "active_borrowers": 100,
+            "missing_score": 15,
+            "n": 85,
+            "min": 434,
+            "max": 770,
+            "mean": 637.624,
+            "p10": 545,
+            "p50": 641,
+            "p90": 726,
+            "p99": 770
+          },
+          "G5": {
+            "active_borrowers": 19,
+            "missing_score": 2,
+            "n": 17,
+            "min": 510,
+            "max": 711,
+            "mean": 607.235,
+            "p10": 520,
+            "p50": 589,
+            "p90": 685,
+            "p99": 711
+          }
+        },
+        "income_and_credit_score": {
+          "pairs": 3019,
+          "pearson_r": 0.23576
+        },
+        "credit_score_and_worst_active_debt_group_ordinal": {
+          "pairs": 1488,
+          "pearson_r": -0.18873
+        }
+      },
+      "rm_geography": {
+        "active_assignments": 4000,
+        "same_province_as_rm_branch": 3302,
+        "same_province_fraction": 0.8255,
+        "customers_per_rm_including_empty_portfolios": {
+          "n": 120,
+          "min": 19,
+          "max": 57,
+          "mean": 33.333,
+          "p10": 26,
+          "p50": 33,
+          "p90": 41,
+          "p99": 51
+        }
+      },
+      "transaction_activity": {
+        "window": {
+          "after_exclusive": "2025-10-31",
+          "through_inclusive": "2026-10-31"
+        },
+        "transaction_count": 128424,
+        "cancelled_transaction_count": 3232,
+        "posted_purchase_amount_vnd": {
+          "n": 100321,
+          "min": 5000,
+          "max": 12654000,
+          "mean": 300527.088,
+          "p10": 36000,
+          "p50": 158000,
+          "p90": 679000,
+          "p99": 2230000
+        },
+        "distinct_raw_merchants_per_customer": {
+          "n": 4000,
+          "min": 0,
+          "max": 23,
+          "mean": 13.183,
+          "p10": 8,
+          "p50": 14,
+          "p90": 19,
+          "p99": 22
+        },
+        "distinct_devices_per_customer": {
+          "n": 4000,
+          "min": 0,
+          "max": 2,
+          "mean": 1.273,
+          "p10": 1,
+          "p50": 1,
+          "p90": 2,
+          "p99": 2
+        },
+        "top_5_merchants_share_of_posted_purchase_events": 0.05734
+      },
+      "catalogue_usage_in_normalized_facts": {
+        "area": {
+          "catalogue": 200,
+          "used": 200,
+          "unused": 0
+        },
+        "branch": {
+          "catalogue": 40,
+          "used": 40,
+          "unused": 0
+        },
+        "company": {
+          "catalogue": 300,
+          "used": 300,
+          "unused": 0
+        },
+        "staff": {
+          "catalogue": 120,
+          "used": 120,
+          "unused": 0
+        },
+        "device": {
+          "catalogue": 6000,
+          "used": 4172,
+          "unused": 1828
+        },
+        "merchant": {
+          "catalogue": 500,
+          "used": 314,
+          "unused": 186
+        }
+      },
+      "pilot_tolerances": {
+        "missing_monthly_income": {
+          "count": 389,
+          "denominator": 4000,
+          "fraction": 0.09725,
+          "range": [
+            0.02,
+            0.2
+          ],
+          "minimum_sample": 200,
+          "status": "WITHIN_RANGE",
+          "basis": "Demo generator leaves approximately 10% of incomes missing."
+        },
+        "cancelled_transactions": {
+          "count": 3232,
+          "denominator": 128424,
+          "fraction": 0.02517,
+          "range": [
+            0.005,
+            0.06
+          ],
+          "minimum_sample": 500,
+          "status": "WITHIN_RANGE",
+          "basis": "Demo generator cancels approximately 2.5% of source events."
+        }
+      },
+      "warnings": []
+    }
+  }
+}
