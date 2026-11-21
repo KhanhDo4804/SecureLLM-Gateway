@@ -11,6 +11,13 @@ vault/
 *.dpapi
 *.aesgcm
 
+# Các bảng do data_gen_code sinh; giữ data card, manifest và báo cáo kiểm định
+/datasets/**/*.parquet
+
+/experiments/**/*.parquet
+/experiments/**/*.crfsuite
+/experiments/**/*.jsonl
+/experiments/**/release/
 
 # Code clone cua nhom tac gia 
 /third_party/field-level-anonymisation-leaks/

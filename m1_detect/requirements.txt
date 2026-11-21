@@ -1,0 +1,2 @@
+-r ../data_gen/requirements.txt
+python-crfsuite==0.9.11
