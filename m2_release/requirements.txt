@@ -1,0 +1,3 @@
+-r ../data_gen/requirements.txt
+cryptography==50.0.2
+pywin32==312
